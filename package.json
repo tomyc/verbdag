@@ -1,0 +1,20 @@
+{
+  "name": "verbdag",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Codzienne pakiety norweskich czasowników: presens, preteritum, perfektum.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node scripts/check-data.mjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "vite": "5.4.11"
+  }
+}
